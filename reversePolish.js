@@ -5,15 +5,12 @@ O: Number that results from the expression
 C: x
 E: x
 
-
 */
 
 //split the string into array
   //iterate over array and add each item to stack
   //when the loop hits a operator, do the operation, update stack
   //at end of string array, return the number
-
-
 
 const calculateRPN = function(stringExp) {
     let stack = [];
@@ -39,10 +36,6 @@ const calculateRPN = function(stringExp) {
     }
     return stack;
 }
-
-
-
-
 
 
 // Test Cases:
